@@ -1,0 +1,40 @@
+$primary: #511F73;
+$secondary: #DCA7F2;
+$info: #A545BF;
+$success: #1A1040;
+$danger: #0A0B26;
+
+body {
+    padding-top: 88px;
+}
+
+.contentCard {
+    opacity:0.5;
+}
+
+.pageSection {
+    box-shadow: 0 0 5px 5px white;
+}
+
+#containerAbout {
+    background-image: url('https://external-preview.redd.it/Z_2Ng0SBbre_Kq90lCjOlab2zMHrS14osNIZ9knY7H0.jpg?auto=webp&s=73d4af09493dec76d9b5bbe26d71b909d559eff1');
+}
+
+#containerHobb {
+    background-image: url(../media/lihko.png);
+    background-position: 80% 30%;
+    height: 100vh;
+}
+
+#introPicture {
+    background-image: url('https://i.pinimg.com/originals/3d/9c/67/3d9c67c0fafe1d7ce97cdd0ea4b1a096.jpg');
+    height: 100vh;
+}
+
+#navBar {
+    box-shadow: 0 0 5px 5px white;
+    background-size: 100%;
+    background-image: url('https://media.istockphoto.com/vectors/space-background-wide-realistic-cosmos-with-shining-stars-long-banner-vector-id1283095709?k=20&m=1283095709&s=170667a&w=0&h=FBCrFEbfgaK-G44Sxpr6NiOu3kJHhrt2F6TmKrc4keM=');
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
