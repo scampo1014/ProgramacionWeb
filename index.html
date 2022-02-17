@@ -62,7 +62,7 @@
 
         <!-- Main Content -->
 
-        <section class="tab-content mt-3" id="pills-tabContent">
+        <section class="tab-content mt-3 w-100" id="pills-tabContent">
 
 
             <!-- Introduction Picture -->
@@ -76,7 +76,7 @@
             <!-- About Me -->
             <div class="pageSection tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
                 <div class="container-fluid bg-image" id="containerAbout">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center contentRow">
                         <div class="contentCard col-md-11 col-sm-12 rounded-lg card m-4 px-0">
                             <div class="card-header">
                                 <h1>
@@ -99,7 +99,7 @@
             <!-- Projects -->
             <div class="pageSection tab-pane fade" id="projects" role="tabpanel" aria-labelledby="project-tab">
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center contentRow">
                         <div class="contentCard col-md-11 col-sm-12 rounded-lg card m-4 px-0">
                             <div class="card-header">
                                 <h1>
@@ -120,26 +120,67 @@
             </div>
 
             <!-- Hobbies & Interests -->
-            <div class="pageSection tab-pane fade" id="hobbinter" role="tabpanel" aria-labelledby="hobby-tab">
-                <div class="container-fluid bg-image" id="containerHobb">
-                    <div class="row justify-content-center">
-                        <div class="contentCard col-md-11 col-sm-12 rounded-lg card m-4 px-0">
+            <div class="pageSection tab-pane fade w-100 h-100" id="hobbinter" role="tabpanel" aria-labelledby="hobby-tab">
+                <div class="container-fluid bg-image w-100" id="containerHobb">
+                    <div class="row justify-content-center" id="contentRow">
+                        <div class="contentCard col-11 rounded-lg card m-4 px-0 w-70 h-70">
                             <div class="card-header">
                                 <h1>
                                     Hobbies & Interests
                                 </h1>
                             </div>
+
                             <div class="card-body cardContent">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="./media/gameclip.mp4" sandbox></iframe>
+
+                                <!-- Hobby Content -->
+
+                                <!-- Video -->
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <video class="embed-responsive-item" src="./media/gameclip.mp4" type="video/mp4" controls id="ffxivideo"></video>
+                                            </div>
+                                        </div>
                                     </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat incidunt, vero ab exercitationem debitis praesentium ratione ullam atque deleniti nihil eligendi minima, voluptatem corrupti recusandae nostrum at officia modi delectus.
-                                </p>
+                                </div>
+
+                                <!-- FFXIV -->
+                                <div class="row pt-4">
+                                    <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                                        <h2>
+                                            Final Fantasy XIV
+                                        </h2>
+                                        <p>
+                                            I've been playing Final Fantasy XIV since February 2019, when a special promotion with Twitch allowed me to get the base game for free, as well as a month of playtime. Ever since, I've played through the content multiple times, and I've even called for several raid groups! In terms of endgame content, last year I managed to become the #11 Gunbreaker in the world for Delubrum Reginae: Savage! The previous video highlights a funny clip from one raiding session, wherein I linked an item called "Antipyretic Orchestrion Roll" in chat. The next mechanic was either Pyretic or Freezing, with the latter being more preferable. Thankfully, it seemingly worked...
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                                        <h2>
+                                            Tabletop RPG's
+                                        </h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis reiciendis doloribus illum nisi voluptas labore voluptatibus asperiores necessitatibus deserunt soluta exercitationem expedita rerum impedit maxime ducimus fuga, optio earum quam.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <!-- D&D -->
+                                <div class="row">
+
+                                </div>
+
+
+                                <!-- Minecraft -->
+                                <div class="row">
+
+                                </div>
+
                             </div>
                             <div class="card-footer">
                                 test
-                            </div>
+                            </div>                           
                         </div>
                     </div>
                 </div>
@@ -148,7 +189,7 @@
             <!-- Academic Background & Work Experience -->
             <div class="pageSection tab-pane fade" id="acawork" role="tabpanel" aria-labelledby="academic-tab">
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center contentRow">
                         <div class="contentCard col-md-11 col-sm-12 rounded-lg card m-4 px-0">
                             <div class="card-header">
                                 <h1>

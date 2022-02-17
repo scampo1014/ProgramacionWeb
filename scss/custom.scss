@@ -15,12 +15,13 @@ body {
 
 #containerAbout {
     background-image: url('https://external-preview.redd.it/Z_2Ng0SBbre_Kq90lCjOlab2zMHrS14osNIZ9knY7H0.jpg?auto=webp&s=73d4af09493dec76d9b5bbe26d71b909d559eff1');
+    min-height: 100vh;
 }
 
 #containerHobb {
     background-image: url(../media/lihko.png);
     background-position: 80% 30%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #introPicture {
@@ -32,6 +33,16 @@ body {
     box-shadow: 0 0 5px 5px white;
     background-size: 100%;
     background-image: url('https://media.istockphoto.com/vectors/space-background-wide-realistic-cosmos-with-shining-stars-long-banner-vector-id1283095709?k=20&m=1283095709&s=170667a&w=0&h=FBCrFEbfgaK-G44Sxpr6NiOu3kJHhrt2F6TmKrc4keM=');
+}
+
+#ffxivideo {
+    width: 60vw;
+    height: auto !important;
+    min-height: 100%;
+}
+
+#contentRow {
+    min-height: 100%
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
