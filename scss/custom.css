@@ -1,9 +1,5 @@
 body {
-  padding-top: 88px;
-}
-
-.contentCard {
-  opacity: 0.5;
+  padding-top: 90px;
 }
 
 .pageSection {
@@ -11990,5 +11986,17 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+.card {
+  background-color: rgba(103, 185, 218, 0.7);
+}
+
+.card-body {
+  opacity: 1 !important;
+}
+
+.card-header, .card-footer {
+  background-color: #67b9da;
 }
 /*# sourceMappingURL=custom.css.map */

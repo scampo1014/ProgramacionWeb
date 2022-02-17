@@ -3,13 +3,10 @@ $secondary: #DCA7F2;
 $info: #A545BF;
 $success: #1A1040;
 $danger: #0A0B26;
+$cardcolor: #67b9da;
 
 body {
-    padding-top: 88px;
-}
-
-.contentCard {
-    opacity:0.5;
+    padding-top: 90px;
 }
 
 .pageSection {
@@ -37,4 +34,15 @@ body {
     background-image: url('https://media.istockphoto.com/vectors/space-background-wide-realistic-cosmos-with-shining-stars-long-banner-vector-id1283095709?k=20&m=1283095709&s=170667a&w=0&h=FBCrFEbfgaK-G44Sxpr6NiOu3kJHhrt2F6TmKrc4keM=');
 }
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss"
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.card {
+    background-color: rgba($cardcolor, 0.7); 
+}
+.card-body {
+     opacity: 1 !important;
+}
+
+.card-header, .card-footer {
+    background-color: $cardcolor;
+}
