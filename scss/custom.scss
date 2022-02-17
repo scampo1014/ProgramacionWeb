@@ -16,6 +16,7 @@ body {
 #containerAbout {
     background-image: url('https://external-preview.redd.it/Z_2Ng0SBbre_Kq90lCjOlab2zMHrS14osNIZ9knY7H0.jpg?auto=webp&s=73d4af09493dec76d9b5bbe26d71b909d559eff1');
     min-height: 100vh;
+    background-size: auto 100%;
 }
 
 #containerProj {
@@ -27,6 +28,12 @@ body {
 #containerHobb {
     background-image: url(../media/lihko.png);
     background-position: 80% 30%;
+    min-height: 100vh;
+    background-size: auto 100%;
+}
+
+#containerAcaWo {
+    background-image: url("https://img.game-news24.com/2021/12/How-to-complete-the-MSQ-for-the-Sage-Council-in-FF14-Endwalker.jpeg");
     min-height: 100vh;
     background-size: auto 100%;
 }
@@ -48,7 +55,7 @@ body {
     min-height: 100%;
 }
 
-#contentRow {
+.contentRow {
     min-height: 100%
 }
 
